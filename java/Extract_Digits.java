@@ -6,10 +6,10 @@ import java.util.LinkedList;
 public class main {
     public static void main(String[] args) {
         int x = -1459121; //user input
-        isPalindrome(x);
+        extract(x);
     }
 
-    public static void isPalindrome(int x) {
+    public static void extract(int x) {
         LinkedList<Integer> stack = new LinkedList<Integer>();
 
         //extract digits of positive numbers
